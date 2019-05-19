@@ -6,7 +6,7 @@ Página desenvolvida em HTML para aplicação de um algoritmos que detecta de du
 
 ## Live Demo
 
-https://alisonmoura.github.io/anagramado
+https://alisonmoura.github.io/anagramado/
 
 ## Run
 
