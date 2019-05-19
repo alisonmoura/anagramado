@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan:300,400&display=swap');
+
+* {
+    font-family: 'Kodchasan', sans-serif;
+}
+
+body {
+    background-image: url('bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* BUTTON OUTLINE */
+button.outline {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: .3s;
+}
+button.outline:hover {
+    background-color: white;
+    color: #3e3e46;
+    box-shadow: 0px 3px 5px rgba(0,0,0,.2);
+}
+
+/* TITLE */
+h1.title{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40pt;
+    text-transform: uppercase;
+    color: #3e3e46;
+}
+
+/* FORM */
+.form {
+    width: 60%;
+    margin: 50px auto;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0,0,255,.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form input, button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13pt;
+    color: #3e3e46
+}
+.form input {
+    margin-right: 10px;   
+}
+
+/* ALERT */
+.alert {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.alert-card {
+    background-color: blue;
+    color: white;
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes pop-up {
+    0% { opacity: 0; transform: scale(.5) }
+    50% { opacity: .5; transform: scale(1.5) }
+    100% { opacity: 1; transform: scale(1) }
+}
+
+@keyframes pop-out {
+    0% { opacity: 1; transform: scale(1) }
+    50% { opacity: .5; transform: scale(1.5) }
+    100% { opacity: 0; transform: scale(.5) }
+}

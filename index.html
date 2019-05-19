@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anagramado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="anagrama.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Anagramado</h1>
+    <form class="form">
+        <div>
+            <input id="palavra1" type="text" placeholder="Primeira palavra">
+            <input id="palavra2" type="text" placeholder="Segunda palavra">
+        </div>
+        <button class="outline" type="button" onclick="verificar()">Verificar</button>
+    </form>
+
+    <div class="alert">
+        <div class="alert-card">
+            <span class="alert-message">Ops, Não é anagrama</span>
+            <button class="outline" onclick="closeAlert()">Fechar</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
