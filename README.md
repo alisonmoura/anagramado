@@ -1,8 +1,8 @@
 # Anagramado
 
-[STUDY-CASE] Página desenvolvida em HTML, CSS e Javascript para aplicação de um algoritmo de detecção de ocorrência de anagrama entre duas palavras.
+> Este projeto é para fins de estudo e prática
 
-> Projeto realizado como caso de estudo
+Página desenvolvida em HTML, CSS e Javascript para aplicação de um algoritmo de detecção de ocorrência de anagrama entre duas palavras.
 
 ## Live Demo
 
